@@ -1,0 +1,698 @@
+.App{
+  background: linear-gradient(to right, #FFDFD6, #E3A5C7, #B692C2, #694F8E)!important;
+}
+.navbar-custom {
+  background-color: #EEEEEE;
+}
+
+.navbar-brand {
+  color: #694F8E !important;
+}
+
+.navbar-brand img {
+  max-width: 150px;
+  height: auto;
+}
+
+.nav-link,
+.nav-dropdown,
+.nav-dropdown-item,
+.nav-dropdown-item-2,
+.nav-dropdown-item-3 {
+  color: #694F8E;
+  font-size: 1rem; 
+}
+
+.navbar-toggler {
+  border-color: #694F8E;
+}
+
+.nav-link:hover,
+.navbar-toggler:focus {
+  color: #E3A5C7;
+}
+
+.nav-dropdown-item:hover,
+.nav-dropdown-item-2:hover,
+.nav-dropdown-item-3:hover {
+  background-color: #694F8E;
+  color: white;
+}
+
+.cta-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.cta-login {
+  background-color: #B692C2;
+  color: white;
+}
+
+.cta-login:hover {
+  background-color: #694F8E;
+}
+
+.cta-signup {
+  background-color: #B692C2;
+  color: white;
+}
+
+.cta-signup:hover {
+  background-color: #694F8E;
+}
+
+.cta-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-nav-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex: 1;
+}
+
+
+/* Hero Section CSS */
+
+.hero-section {
+  background: linear-gradient(to right, #FFDFD6, #E3A5C7, #B692C2, #694F8E);
+  padding: 40px 0;
+  min-height: 300px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-section p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.search-box {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-box .form-label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #694F8E;
+}
+
+.search-box .form-control,
+.search-box .form-select {
+  border: 1px solid #694F8E;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.search-box .form-control:focus,
+.search-box .form-select:focus {
+  border-color: #B692C2;
+  box-shadow: 0 0 5px rgba(105, 79, 142, 0.5);
+}
+
+.search-box .btn {
+  background-color: #B692C2;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.search-box .btn:hover {
+  background-color: #694F8E;
+}
+
+/* Property listing CSS */
+
+.property-listings h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+
+}
+
+.property-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-badge {
+  background-color: #694F8E !important;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.4em 0.7em;
+  border-radius: 50px;
+}
+
+.custom-small:hover {
+  color: #694F8E;
+}
+
+.property-card .btn {
+  background-color: #B692C2;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.property-card .btn:hover {
+  background-color: #694F8E;
+}
+
+/* Why Choose CSS */
+
+.why-choose h2 {
+  color: white;
+  font-weight: 700;
+}
+
+.why-choose i {
+  color: #694F8E;
+}
+
+.card-title {
+  color: #694f8e;
+}
+
+.card-text {
+  color: #B692C2;
+}
+
+/* Testimonials CSS */
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+
+}
+
+.see-all-button {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.testimonial-card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.agent-photo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.custom-h5 {
+  color: #694F8E;
+}
+
+.company-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.testimonial-card small {
+  color: #694F8E;
+}
+
+.testimonial-card hr {
+  margin: 10px 0;
+  border-top: 1px solid #B692C2;
+}
+
+.vertical-hr-line {
+  width: 0.1rem;
+  height: 50px;
+  background-color: black;
+  border: 1px solid #694F8E;
+  margin: 0 auto;
+}
+
+
+.testimonial-card h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #694F8E;
+}
+
+/* Blog Section CSS */
+
+.blog-h2 {
+  color: white;
+}
+
+.mt-2 {
+  background-color: #B692C2;
+  color: white;
+  border: none;
+
+}
+
+.mt-2:hover {
+  background-color: #694F8E;
+  color: white;
+}
+
+.rounded {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* CTS Section CSS */
+
+.cta-section-container {
+  background: linear-gradient(to right, #FFDFD6, #E3A5C7, #B692C2, #694F8E);
+}
+
+.cta-section h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem; 
+}
+
+/* Buttons Styling */
+.cta-btn {
+  background-color: #B692C2;
+  color: white;
+  border: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+  background-color: #694F8E;
+  color: white;
+}
+
+
+/* Subscribe Section CSS */
+
+.subscribe-section h3{
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.custom-subscribe-input{
+  max-width: 300px;
+  border: 1px solid #694F8E;
+}
+.custom-subscribe-input::placeholder{
+  color: #B692C2;
+}
+
+.custom-subscribe-input:focus {
+  border-color: #B692C2;
+  outline: none;
+  box-shadow: 0 0 5px #694F8E;
+  margin-right: 15px;
+}
+.ml-3{
+  margin-left: 15px;
+  background-color: white;
+  color: #B692C2;
+  border: none;
+  font-weight: 600;
+}
+.ml-3:hover{
+  background-color: #E3A5C7;
+  color: #694F8E;
+}
+
+
+/* Partners CSS */
+
+.mb-4{
+  color: white;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+.partner-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+}
+
+.partner-logo {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.partner-card h5 {
+  font-weight: bold;
+  color: #694F8E;
+}
+
+.partner-card p {
+  color: #694F8E;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.partner-card .hover-button {
+  position: relative;
+}
+
+.partner-card .hover-button a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.partner-card .hover-button a.btn-primary {
+  background-color: #B692C2;
+  border: none;
+  color: white;
+}
+
+.partner-card .hover-button a.btn-primary:hover {
+  background-color: #694F8E;
+  border:none;
+}
+
+/* Contact Section CSS */
+
+iframe{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.right-col{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.right-form-lable{
+  text-align: left;
+  display: block;
+  color: white;
+  font-weight: 500;
+}
+.mt-3{
+  background-color: white;
+  color: #694F8E;
+  border: none;
+}
+
+.mt-3:hover{
+  background-color: #694F8E;
+  color: white;
+}
+.custom-control-placeholder:focus{
+  border-color: #B692C2;
+  outline: none;
+  box-shadow: 0 0 5px #694F8E;
+}
+.custom-control-placeholder::placeholder{
+  color: #694F8E;
+}
+
+/* FAQ Section CSS */
+
+.faq-section{
+  background: linear-gradient(to right, #FFDFD6, #E3A5C7, #B692C2, #694F8E);
+  padding: 10px;
+}
+.faq-header {
+  color: #007bff; 
+  font-weight: bold;
+}
+
+.faq-section .accordion-body {
+  color: #B692C2; 
+}
+.accordion-button {
+  color: #694F8E;
+}
+.accordion-button:focus{
+  border-color: #B692C2;
+  outline: none;
+  box-shadow: 0 0 5px #694F8E;
+  background-color: #FFDFD6;
+}
+
+/* Offerse Section CSS */
+
+.offers-section h3 {
+  font-weight: bold;
+  color: white;
+}
+
+.offers-section .card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.offers-section .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.offers-section .btn-danger {
+  background-color: #B692C2;
+  border: none;
+  color: white;
+}
+
+.offers-section .btn-danger:hover {
+  background-color: #694F8E;
+}
+
+.text-muted{
+  color: white !important;
+}
+
+.custom-card-text{
+  color:#694F8E !important;
+}
+
+.text-center img{
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+/* Footer Section CSS */
+
+.custom-footer {
+  background-color: #EEEEEE;
+  color: #343a40;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.custom-footer h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:#500073;
+}
+
+.custom-footer p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #694F8E;
+}
+
+.custom-footer a {
+  color: #694F8E;
+  text-decoration: none;
+}
+
+.custom-footer a:hover{
+  color: #500073;
+  text-decoration: underline;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  font-size: 18px;
+  margin: 0 8px;
+  color: #694F8E;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #500073;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  border-top: 1px solid #694F8E;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.footer-links {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin: 0 5px;
+}
+
+.disclaimer {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-buttons {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .cta-button {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  /* Adjust Font Sizes */
+  .nav-link,
+  .nav-dropdown,
+  .nav-dropdown-item,
+  .nav-dropdown-item-2,
+  .nav-dropdown-item-3 {
+    font-size: 0.9rem; /* Slightly smaller font size for mobile */
+  }
+
+  .navbar-brand img {
+    max-width: 120px; /* Smaller logo on mobile */
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 576px) {
+  .nav-link,
+  .nav-dropdown,
+  .nav-dropdown-item,
+  .nav-dropdown-item-2,
+  .nav-dropdown-item-3 {
+    font-size: 0.8rem; /* Even smaller font size for very small screens */
+  }
+
+  .navbar-brand img {
+    max-width: 100px; /* Smaller logo */
+  }
+
+  .cta-button {
+    font-size: 0.9rem; /* Adjust button font size */
+    padding: 8px 15px; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .search-box {
+    padding: 20px;
+  }
+.py-5 {
+    padding-top: 0.1rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.section-title {
+  font-size: 1.2rem;
+}
+
+.testimonial-card {
+  margin-bottom: 20px;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+}
+
+.cta-buttons {
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-btn {
+  width: 100%;
+  margin: 5px 0;
+}
+}
